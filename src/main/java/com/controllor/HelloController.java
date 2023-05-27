@@ -21,6 +21,7 @@ public class HelloController {
         String user = "123456";
        model.addObject("asd","哈哈");
        model.setViewName("login");
+       model.addObject("123456");
        return model;
     }
 
